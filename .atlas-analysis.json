@@ -1,0 +1,95 @@
+{
+  "projectType": "frontend",
+  "projectName": "PokemonApp",
+  "projectDescription": "A React application for exploring Pokemon from all generations with infinite scrolling and detailed statistics.",
+  "theme": "almond",
+  "primaryColor": "#e92424",
+  "lightColor": "#110c0c",
+  "darkColor": "#e2e2e2",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "architecture"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/infinite-scrolling",
+              "features/pokemon-display",
+              "features/search-controls",
+              "features/responsive-design"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "components/overview",
+              "components/card-pokemon",
+              "components/card-grid",
+              "components/header-controls",
+              "components/custom-header"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/setup",
+              "development/api-integration",
+              "development/state-management",
+              "development/hooks"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Actions",
+            "pages": [
+              "api/get-pokemons"
+            ]
+          },
+          {
+            "group": "Hooks",
+            "pages": [
+              "api/use-pokemons"
+            ]
+          },
+          {
+            "group": "Interfaces",
+            "pages": [
+              "api/pokemon-interface",
+              "api/pokemon-response"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Infinite scrolling for seamless Pokemon browsing",
+    "Search controls with limit and offset parameters",
+    "Beautiful card-based Pokemon display with stats",
+    "Responsive design with mobile menu",
+    "TanStack Query for efficient data caching",
+    "Integration with PokeAPI"
+  ],
+  "publicApiSurface": [
+    "getPokemonsAction({ limit, offset })",
+    "usePokemons()",
+    "CardPokemon",
+    "CardGridPokemon",
+    "HeaderControls",
+    "CustomHeader",
+    "PokemonLayout"
+  ]
+}
